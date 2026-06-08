@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Portable release artifacts:
+    "release-portable/**",
   ]),
 ]);
 
