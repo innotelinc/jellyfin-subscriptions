@@ -1,0 +1,20 @@
+[Unit]
+Description=Jellyfin Subscriptions Next.js app
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/claude/workspace/jellyfin-subscriptions
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=PATH=/home/claude/.nvm/versions/node/v22.22.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+EnvironmentFile=/home/claude/workspace/jellyfin-subscriptions/.env
+ExecStart=/home/claude/.nvm/versions/node/v22.22.2/bin/npm run start
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
