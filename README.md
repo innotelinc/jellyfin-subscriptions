@@ -1,5 +1,9 @@
 # Jellyfin Subscriptions
 
+[![Release](https://img.shields.io/github/v/release/innotelinc/jellyfin-subscriptions)](https://github.com/innotelinc/jellyfin-subscriptions/releases)
+[![CI](https://img.shields.io/github/actions/workflow/status/innotelinc/jellyfin-subscriptions/ci.yml?branch=main&label=ci)](https://github.com/innotelinc/jellyfin-subscriptions/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A Next.js app for selling access to a Jellyfin server with Stripe while provisioning users through JFA-Go.
 
 ## What it does
