@@ -1,0 +1,8 @@
+subscribe.innotel.us {
+  encode gzip zstd
+  reverse_proxy app:3000
+}
+
+accounts.innotel.us {
+  reverse_proxy host.docker.internal:8056
+}

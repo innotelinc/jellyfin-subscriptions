@@ -1,0 +1,7 @@
+subscribe.innotel.us {
+  reverse_proxy 127.0.0.1:3000
+}
+
+accounts.innotel.us {
+  reverse_proxy 127.0.0.1:8056
+}
