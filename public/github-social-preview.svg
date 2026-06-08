@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Jellyfin Subscriptions</title>
+  <desc id="desc">Customer-facing Jellyfin subscription portal with Stripe billing and JFA-Go provisioning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020" />
+      <stop offset="55%" stop-color="#152447" />
+      <stop offset="100%" stop-color="#3b1d74" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)" rx="36"/>
+  <circle cx="1080" cy="140" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="1140" cy="520" r="220" fill="#8b5cf6" opacity="0.10"/>
+  <circle cx="180" cy="90" r="120" fill="#38bdf8" opacity="0.08"/>
+  <rect x="84" y="82" width="220" height="16" rx="8" fill="url(#accent)" opacity="0.95"/>
+  <text x="84" y="205" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="700">Jellyfin Subscriptions</text>
+  <text x="84" y="275" fill="#dbeafe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="500">Stripe billing + JFA-Go provisioning</text>
+  <text x="84" y="338" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28">Customer-facing signup portal for self-hosted media subscriptions</text>
+  <g transform="translate(84 420)">
+    <rect width="430" height="132" rx="24" fill="#0f172a" opacity="0.88" stroke="#334155"/>
+    <text x="28" y="42" fill="#93c5fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">FEATURES</text>
+    <text x="28" y="78" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26">• Checkout + billing portal</text>
+    <text x="28" y="110" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26">• Admin approvals + invite sync</text>
+  </g>
+  <g transform="translate(700 150)">
+    <rect width="470" height="300" rx="28" fill="#0f172a" opacity="0.92" stroke="#475569"/>
+    <rect x="30" y="32" width="160" height="16" rx="8" fill="#38bdf8" opacity="0.9"/>
+    <rect x="30" y="72" width="250" height="18" rx="9" fill="#e2e8f0" opacity="0.95"/>
+    <rect x="30" y="112" width="410" height="54" rx="16" fill="#111827" stroke="#334155"/>
+    <rect x="30" y="188" width="195" height="64" rx="18" fill="#7c3aed"/>
+    <rect x="245" y="188" width="195" height="64" rx="18" fill="#0f766e"/>
+    <text x="58" y="224" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">MONTHLY</text>
+    <text x="273" y="224" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">ANNUAL</text>
+    <text x="58" y="245" fill="#ede9fe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Fast signup flow</text>
+    <text x="273" y="245" fill="#ccfbf1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Lower churn path</text>
+  </g>
+  <text x="84" y="596" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">github.com/innotelinc/jellyfin-subscriptions</text>
+</svg>
